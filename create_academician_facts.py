@@ -1,7 +1,7 @@
 import json
 
 # JSON dosyasını yükleyin
-with open('academic_data.json', 'r', encoding='utf-8') as file:
+with open('academician_publications', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # Prolog formatına dönüştürme
